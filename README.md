@@ -8,18 +8,6 @@ This simple portfolio template is designed to showcase your past projects, caree
 
 View the [Demo](https://yujisatojr.github.io/react-portfolio-template/).
 
-**This template is free to use, and no attribution is required.** You can fork or download this repository to customize it for your own use. Please don't forget to leave a ⭐ if you like this portfolio!
-
-![screenshot](./src/assets//images/screenshot.png)
-
-## Features
-
-✅ Open source (free to use, no attribution required)  
-✅ Responsive design & mobile-friendly  
-✅ Supports both dark and light modes  
-✅ Highly customizable multi-component layout  
-✅ Built with modern technologies (React, TypeScript, JavaScript, and SCSS)  
-
 ## Quick Setup
 
 1. Ensure you have [Node.js](https://nodejs.org/) installed. Check your installation by running:
@@ -49,8 +37,7 @@ The page will reload if you make edits, and you will see any lint errors in the 
 If you are interested in creating a mockup image like the ones from the personal projects section, I recommend [Genmoo](https://gemoo.com/tools/browser-mockup-generator/). This website lets you generate sleek looking browser mockups for free.
 
 ## Deployment
-
-You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/), [Render](https://render.com/), [Heroku](https://www.heroku.com/)) for deployment. One of the easiest ways to host this portfolio is using GitHub Pages. Follow the instructions below for a production deploy.
+ One of the easiest ways to host this portfolio is using GitHub Pages. Follow the instructions below for a production deploy.
 
 1. **Set Up GitHub Repository**
 
