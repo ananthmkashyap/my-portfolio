@@ -1,0 +1,116 @@
+/* -------------------------
+   PUBLICATION SECTION
+--------------------------*/
+
+.publication-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;            /* same as projects */
+    text-align: left;           /* match projects' left alignment */
+}
+
+.publications-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* similar structure to projects but 1 column */
+    grid-gap: 50px;             /* same spacing as projects */
+    margin-top: 30px;
+}
+
+/* Publication item — aligned similar to project cards */
+.publication {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;                  /* similar spacing logic */
+    align-items: flex-start;
+    text-align: left;
+}
+
+/* IMAGE — behaves like .zoom from projects */
+.publication img {
+    width: 220px;
+    max-width: 220px;
+    border-radius: 5px;
+    transition: transform .2s;
+}
+
+.publication img:hover {
+    transform: scale(1.05);
+}
+
+/* RIGHT SIDE TEXT BLOCK */
+.publication-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+/* TITLE (matches project h2 hover behavior) */
+.publication-text h2 {
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+.publication-text h2:hover {
+    text-decoration: underline;
+    transition: color .15s ease-in-out, 
+                background-color .15s ease-in-out, 
+                border-color .15s ease-in-out;
+}
+
+/* AUTHORS — stacked vertically with tight spacing */
+.publication-authors {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;                   /* small, clean vertical spacing */
+    margin-top: 4px;
+}
+
+.publication-authors p {
+    margin: 0;
+}
+
+/* LinkedIn link styling */
+.author-link {
+    color: #0077b5;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.author-link:hover {
+    text-decoration: underline;
+}
+
+/* -------------------------
+   RESPONSIVE (matches projects)
+--------------------------*/
+
+@media screen and (max-width: 700px) {
+
+    .publication-container {
+        display: block;
+        padding-left: 5%;       /* same breakpoint behavior */
+        padding-right: 5%;
+    }
+
+    .publications-grid {
+        display: block;
+    }
+
+    .publication {
+        flex-direction: column; /* stack image and text */
+        text-align: center;
+        padding-bottom: 5%;
+    }
+
+    .publication-text {
+        text-align: center;
+    }
+
+    .publication img {
+        width: 60%;
+        max-width: 240px;
+        margin: 0 auto;
+    }
+}

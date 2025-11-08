@@ -9,8 +9,8 @@ function Project() {
         <div className="projects-grid">
             <div className="project">
                 <a href="https://github.com/ananthmkashyap/Research_Thesis" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://link.springer.com/chapter/10.1007/978-981-96-3250-3_8#Sec8" target="_blank" rel="noreferrer"><h2>ML Workload Energy Optimization in Public Cloud</h2></a>
-                <p>This Project aims to use Kubernetes Efficient Power Level Exporter (Kepler) tool to extract power consumption metrics of Kubernetes pods during training of ML workloads inorder to optimize the workloads to consume less energy.</p>
+                <h2>ML Workload Energy Optimization in Public Cloud</h2>
+                <p>This Project aims to use Kubernetes Efficient Power Level Exporter (Kepler) tool to extract power consumption metrics of Kubernetes pods during training of ML workloads in order to optimize the workloads to consume less energy.</p>
             </div>
             <div className="project">
                 <a href="https://www.icloud.com/iclouddrive/0e8liVona-moVXyATBIvVScuQ#Master%5FThesis%5F%5F%5FAnanth%5FMahesh%5FKashyap" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>

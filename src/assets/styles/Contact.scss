@@ -1,48 +1,91 @@
-.contact_wrapper svg {
-  font-size: 1em;
-  vertical-align: middle;
-  margin-right: 5px;
-}
+/* -------------------------
+   CONTACT SECTION
+--------------------------*/
 
-.contact-form {
-  padding-top: 20px;
-
-  button {
-    float: right;
-    background-color: white;
-    color: #050f0b;
-  }
-
-  button:hover {
-    background-color: #5000ca;
-    color: white;
-  }
-
-  fieldset {
-    background-color: white;
-  }
-}
-
-label {
-  font-size: 1.2rem;
-  font-family: 'DomaineDispNar-Medium', sans-serif;
-}
-
-.form-flex {
+.contact-container {
   display: flex;
-  gap: 15px;
-  padding-bottom: 15px;
+  flex-direction: column;
+  padding: 5% 10%;            /* same as publication + projects */
+  text-align: left;
 }
 
-.form-flex .MuiFormControl-root {
-  width: 100%;
+.contact_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
-form {
-  width: 100% !important;
+.contact_wrapper h1 {
+  font-size: 2.5rem;
+  margin: 0;
 }
 
-.body-form {
-  width: 100% !important;
-  margin-bottom: 15px !important;
+.contact_wrapper p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Contact links — now in a row */
+.contact_links {
+  display: flex;
+  flex-direction: row;        /* icons side by side */
+  flex-wrap: wrap;            /* wrap on small screens */
+  gap: 25px;                  /* spacing between icons/links */
+  margin-top: 20px;
+}
+
+.contact_links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s ease;
+
+  svg {
+    font-size: 1.3em;
+  }
+
+  &:hover {
+    color: #5000ca;
+    transform: translateY(-3px);
+  }
+}
+
+/* -------------------------
+   RESPONSIVE (matches publications)
+--------------------------*/
+
+@media screen and (max-width: 700px) {
+  .contact-container {
+    display: block;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+
+  .contact_wrapper {
+    align-items: center;
+  }
+
+  .contact_links {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .contact_links a {
+    font-size: 1rem;
+  }
+
+  .contact_wrapper h1 {
+    font-size: 2.2rem;
+  }
+
+  .contact_wrapper p {
+    font-size: 1rem;
+  }
 }
