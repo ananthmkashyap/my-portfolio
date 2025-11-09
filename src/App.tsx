@@ -4,10 +4,10 @@ import {
   Timeline,
   Expertise,
   Project,
-  Contact,
   Navigation,
   Footer,
   Publication,
+  Education,
 } from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
@@ -34,9 +34,9 @@ function App() {
             <Main/>
             <Expertise/>
             <Timeline/>
+            <Education/>
             <Project/>
             <Publication/>
-            <Contact/>
         </FadeIn>
         <Footer />
     </div>

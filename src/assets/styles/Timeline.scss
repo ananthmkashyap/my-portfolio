@@ -25,10 +25,79 @@
 
 .vertical-timeline-element .vertical-timeline-element-date {
     color: white;
+    right: -100px;
 }
 
 .svg-inline--fa {
     color: white;
+}
+
+.rexroth-company-logo {
+    position: absolute;
+    top: 55px;           /* Adjust vertical placement under the date */
+    right: 20px;         /* Align on the right side */
+    width: 100px;         /* Adjust size as needed */
+    border-radius: 8px;
+    opacity: 0.9;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.05);
+      opacity: 1;
+    }
+}
+
+.etas-company-logo {
+    position: absolute;
+    top: 55px;           /* Adjust vertical placement under the date */
+    right: 20px;         /* Align on the right side */
+    width: 100px;         /* Adjust size as needed */
+    border-radius: 8px;
+    opacity: 0.9;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.05);
+      opacity: 1;
+    }
+}
+
+.tcs-company-logo {
+    position: absolute;
+    top: 55px;           /* Adjust vertical placement under the date */
+    right: 20px;         /* Align on the right side */
+    width: 120px;         /* Adjust size as needed */
+    border-radius: 8px;
+    opacity: 0.9;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.05);
+      opacity: 1;
+    }
+}
+
+.education-logo {
+    position: absolute;
+    top: 20px;           /* Adjust vertical placement under the date */
+    right: 20px;         /* Align on the right side */
+    width: 290px;         /* Adjust size as needed */
+    border-radius: 8px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.05);
+      opacity: 1;
+    }
+}
+
+.timeline-date {
+    display: block;
+    font-weight: 600;
+    color: #5000ca;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    right: -100px;
 }
 
 @media screen and (max-width: 1170px) {
