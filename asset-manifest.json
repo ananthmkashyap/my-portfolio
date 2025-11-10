@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.9dfd9ff2.css",
+    "main.css": "/my-portfolio/static/css/main.50bf6b46.css",
     "main.js": "/my-portfolio/static/js/main.d1a78359.js",
     "static/js/453.b05d8aa5.chunk.js": "/my-portfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/Letter of Recommendation.pdf": "/my-portfolio/static/media/Letter of Recommendation.916f68848465f27ced9a.pdf",
@@ -16,12 +16,12 @@
     "static/media/Ananth_Mahesh_Kashyap_CV.pdf": "/my-portfolio/static/media/Ananth_Mahesh_Kashyap_CV.888e2b2c4ff98b8d908f.pdf",
     "static/media/mock16.png": "/my-portfolio/static/media/mock16.020f8b2658cc7f307da6.png",
     "index.html": "/my-portfolio/index.html",
-    "main.9dfd9ff2.css.map": "/my-portfolio/static/css/main.9dfd9ff2.css.map",
+    "main.50bf6b46.css.map": "/my-portfolio/static/css/main.50bf6b46.css.map",
     "main.d1a78359.js.map": "/my-portfolio/static/js/main.d1a78359.js.map",
     "453.b05d8aa5.chunk.js.map": "/my-portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dfd9ff2.css",
+    "static/css/main.50bf6b46.css",
     "static/js/main.d1a78359.js"
   ]
 }
