@@ -46,8 +46,8 @@
         font-size: 5em;
         margin-block-start: 0px;
         margin-block-end: 0px;
-        margin-right: auto;
-        white-space: nowrap;
+        /*margin-right: auto;
+        white-space: nowrap;*/
     }
 }
 
@@ -211,3 +211,32 @@
         }
     }
 }
+
+.role-with-cv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+  
+    p {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+  
+    .cv-icon {
+      font-size: 1.5rem;
+      color: #1a1a1a; // dark icon for light mode
+      transition: transform 0.3s ease, color 0.3s ease;
+  
+      &:hover {
+        transform: scale(1.1);
+        color: #d32f2f; // red PDF color
+      }
+  
+      @media (prefers-color-scheme: dark) {
+        color: #ffffff; // white icon for dark mode
+      }
+    }
+  }
+  

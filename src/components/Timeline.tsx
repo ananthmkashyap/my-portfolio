@@ -8,6 +8,7 @@ import '../assets/styles/Timeline.scss'
 import mock12 from '../assets/images/mock12.png';
 import mock13 from '../assets/images/mock13.png';
 import mock14 from '../assets/images/mock14.png';
+import recommendation from '../assets/docs/Letter of Recommendation.pdf';
 
 function Timeline() {
   return (
@@ -27,8 +28,8 @@ function Timeline() {
             <h4 className="vertical-timeline-element-subtitle">Lohr am Main, Deutschland</h4>
             <p>
               Azure & AWS Cloud , Terraform (IaC) , Serverless & Containerized Workloads , Automation & CI/CD
+              <a href="https://www.boschrexroth.com/en/dc/" target="_blank" rel="noreferrer"><img src={mock12} alt="Bosch Rexroth Logo" className="rexroth-company-logo"/></a>
             </p>
-            <a href="https://www.boschrexroth.com/en/dc/" target="_blank" rel="noreferrer"><img src={mock12} alt="Bosch Rexroth Logo" className="rexroth-company-logo"/></a>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -41,7 +42,7 @@ function Timeline() {
             <p>
               AWS EKS & Karpenter, Terraform (IaC), GitHub Actions CI/CD , Kubernetes & Autoscaling
             </p>
-            <a href="https://www.etas.com/ww/en/" target="_blank" rel="noreferrer"><img src={mock13} alt="ETAS Logo" className="etas-company-logo"/></a>
+            <a href={recommendation} target="_blank" rel="noreferrer"><img src={mock13} alt="ETAS Logo" className="etas-company-logo"/></a>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"

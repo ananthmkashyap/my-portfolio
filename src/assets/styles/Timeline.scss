@@ -24,8 +24,7 @@
 }
 
 .vertical-timeline-element .vertical-timeline-element-date {
-    color: white;
-    right: -100px;
+    color: white; 
 }
 
 .svg-inline--fa {
@@ -34,9 +33,9 @@
 
 .rexroth-company-logo {
     position: absolute;
-    top: 55px;           /* Adjust vertical placement under the date */
-    right: 20px;         /* Align on the right side */
-    width: 100px;         /* Adjust size as needed */
+    top: 5px;           /* Adjust vertical placement under the date */
+    right: 9px;         /* Align on the right side */
+    width: 70px;         /* Adjust size as needed */
     border-radius: 8px;
     opacity: 0.9;
     transition: transform 0.3s ease, opacity 0.3s ease;
@@ -49,9 +48,9 @@
 
 .etas-company-logo {
     position: absolute;
-    top: 55px;           /* Adjust vertical placement under the date */
-    right: 20px;         /* Align on the right side */
-    width: 100px;         /* Adjust size as needed */
+    top: 5px;           /* Adjust vertical placement under the date */
+    right: 9px;         /* Align on the right side */
+    width: 70px;         /* Adjust size as needed */
     border-radius: 8px;
     opacity: 0.9;
     transition: transform 0.3s ease, opacity 0.3s ease;
@@ -64,9 +63,9 @@
 
 .tcs-company-logo {
     position: absolute;
-    top: 55px;           /* Adjust vertical placement under the date */
-    right: 20px;         /* Align on the right side */
-    width: 120px;         /* Adjust size as needed */
+    top: 0px;           /* Adjust vertical placement under the date */
+    right: 9px;         /* Align on the right side */
+    width: 70px;         /* Adjust size as needed */
     border-radius: 8px;
     opacity: 0.9;
     transition: transform 0.3s ease, opacity 0.3s ease;
@@ -79,9 +78,9 @@
 
 .education-logo {
     position: absolute;
-    top: 20px;           /* Adjust vertical placement under the date */
-    right: 20px;         /* Align on the right side */
-    width: 290px;         /* Adjust size as needed */
+    top: 5px;           /* Adjust vertical placement under the date */
+    right: 7px;         /* Align on the right side */
+    width: 20px;         /* Adjust size as needed */
     border-radius: 8px;
     transition: transform 0.3s ease, opacity 0.3s ease;
   
