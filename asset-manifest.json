@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.7ea15f97.css",
-    "main.js": "/my-portfolio/static/js/main.7a5dce69.js",
+    "main.css": "/my-portfolio/static/css/main.9dfd9ff2.css",
+    "main.js": "/my-portfolio/static/js/main.d1a78359.js",
     "static/js/453.b05d8aa5.chunk.js": "/my-portfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/Letter of Recommendation.pdf": "/my-portfolio/static/media/Letter of Recommendation.916f68848465f27ced9a.pdf",
     "static/media/mock09.png": "/my-portfolio/static/media/mock09.012027084f1bfbb9fa68.png",
@@ -13,14 +13,15 @@
     "static/media/bg-dark.png": "/my-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
     "static/media/Recording.mp3": "/my-portfolio/static/media/Recording.fba770e13938cd75b25c.mp3",
     "static/media/profile_pic.png": "/my-portfolio/static/media/profile_pic.2d34579cb42d849e3b8b.png",
+    "static/media/Ananth_Mahesh_Kashyap_CV.pdf": "/my-portfolio/static/media/Ananth_Mahesh_Kashyap_CV.888e2b2c4ff98b8d908f.pdf",
     "static/media/mock16.png": "/my-portfolio/static/media/mock16.020f8b2658cc7f307da6.png",
     "index.html": "/my-portfolio/index.html",
-    "main.7ea15f97.css.map": "/my-portfolio/static/css/main.7ea15f97.css.map",
-    "main.7a5dce69.js.map": "/my-portfolio/static/js/main.7a5dce69.js.map",
+    "main.9dfd9ff2.css.map": "/my-portfolio/static/css/main.9dfd9ff2.css.map",
+    "main.d1a78359.js.map": "/my-portfolio/static/js/main.d1a78359.js.map",
     "453.b05d8aa5.chunk.js.map": "/my-portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ea15f97.css",
-    "static/js/main.7a5dce69.js"
+    "static/css/main.9dfd9ff2.css",
+    "static/js/main.d1a78359.js"
   ]
 }
