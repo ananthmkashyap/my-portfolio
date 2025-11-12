@@ -2,8 +2,8 @@ name: ci to build and upload dockerfile to dockerhub
 
 on:
   push:
-  branch:
-    - master
+    branches:
+      - master
 
 jobs:
   docker:
