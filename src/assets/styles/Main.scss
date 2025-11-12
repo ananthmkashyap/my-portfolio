@@ -216,27 +216,64 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 10px;
-  
+    gap: 12px;
+    margin-top: 8px;
+
     p {
-      margin: 0;
-      font-size: 1.2rem;
-      font-weight: 500;
+        margin: 0;
+        font-size: 1.5em;
+        font-weight: 500;
+        color: rgb(39, 40, 34); // visible in light mode
+        transition: color 0.3s ease;
     }
-  
-    .cv-icon {
-      font-size: 1.5rem;
-      color: #1a1a1a; // dark icon for light mode
-      transition: transform 0.3s ease, color 0.3s ease;
-  
-      &:hover {
-        transform: scale(1.1);
-        color: #d32f2f; // red PDF color
-      }
-  
-      @media (prefers-color-scheme: dark) {
-        color: #ffffff; // white icon for dark mode
-      }
+
+    /* If your page toggles a .dark-mode class */
+    .dark-mode & p {
+        color: #ffffff; // visible in dark mode
     }
-  }
+
+    .cv-button {
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        border-radius: 50%;
+        padding: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        position: relative;
+        color: rgb(39, 40, 34); // dark icon for light mode
+
+        svg {
+            font-size: 1.6rem;
+        }
+
+        &:hover {
+            transform: scale(1.15);
+            box-shadow: 0 0 20px rgba(106, 0, 244, 0.8);
+        }
+
+        &:active {
+            transform: scale(1);
+        }
+
+        /* Subtle pulsing glow animation */
+        &::after {
+            content: "";
+            position: absolute;
+            border-radius: 50%;
+            inset: 0;
+            box-shadow: 0 0 15px 5px rgba(9, 99, 235, 0.4);
+            opacity: 0;
+            animation: pulse 2s infinite;
+        }
+
+        .dark-mode & {
+            color: #ffffff; // white icon in dark mode
+        }
+    }
+}
+
+
   
