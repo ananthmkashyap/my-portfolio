@@ -28,7 +28,7 @@ function Education() {
             <h3 className="vertical-timeline-element-title">Universität Stuttgart</h3>
             <h3 className="vertical-timeline-element-title">Master of Science</h3>
             <h4 className="vertical-timeline-element-subtitle">Information Technology</h4>
-            <a href={M_Cert} target="_blank" rel="noreferrer"><img src={mock15} alt="Uni Stuttgart Logo" className="education-logo"/></a>
+            <img src={mock15} alt="Uni Stuttgart Logo" className="education-logo"/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -37,7 +37,7 @@ function Education() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBook} />}
           >
-            <h3 className="vertical-timeline-element-title">Dr. Ambedkar Institute of Technology<a href={B_Cert} target="_blank" rel="noreferrer"><img src={mock16} alt="ETAS Logo" className="education-logo"/></a></h3>
+            <h3 className="vertical-timeline-element-title">Dr. Ambedkar Institute of Technology<img src={mock16} alt="ETAS Logo" className="education-logo"/></h3>
             <h3 className="vertical-timeline-element-title">Bachelor of Engineering</h3>
             <h4 className="vertical-timeline-element-subtitle">Electronics and Communication</h4>
           </VerticalTimelineElement>
